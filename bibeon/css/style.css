@@ -1,0 +1,77 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+.body{
+    /* background: linear-gradient(180deg, #4799FF 0%, rgba(181, 214, 255, 0.528162) 47.18%, rgba(104, 122, 208, 0) 100%); */
+ overflow-x: hidden;
+}
+/* .container{
+    max-width: 1920px !important;
+} */
+/* :root{
+    bg-colur:#2c71f6;
+} */
+ .nav{
+    background-color: #2c71f6;
+ }
+ li{
+ list-style: none;
+ }
+ .main-sec{
+   
+   height: 100vh;
+    background: linear-gradient(180deg, #4799FF 0%, rgba(181, 214, 255, 0.528162) 47.18%, rgba(104, 122, 208, 0) 100%);
+ }
+.navbar-nav li a{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px;
+  font-family: Satoshi;
+}
+.navbar-nav li {
+    padding:20px 15px;
+}
+.beon-sec h1{
+ font-size: 230px;
+ /* font-family: Satoshi; */
+ font-family:Joyride ;
+ color: #000;
+ font-style: normal;
+text-transform: uppercase;
+align-items: center;
+
+}
+.here{
+    max-width:350px ; 
+    left: 110px;
+    position: relative;
+    font-size: 24px;
+    padding: 0px;
+}
+.here span{
+    display: block;
+}
+.botal-img img{
+    position: absolute;
+    top: 10px;
+    height: 808px;
+    left: 28%;
+}
+    
+.bot-img img{
+    height: 808px;
+    position: absolute;
+    left: 31%;
+    z-index: 1;
+    top: -212px;
+}
+
+
+/* new  */
+.beon-img img{
+    position: absolute;
+    height: 314px;
+    bottom: 0%; 
+}
